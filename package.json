@@ -20,7 +20,7 @@
     "lint:fix": "eslint src/**/*.js --fix",
     "lint:format": "prettier src/**/*.{js,css,json} --write",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,5 +48,5 @@
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2"
   },
-  "homepage": "https://evgenyborisenko.github.io/goit-react-hw-02-banking-components/."
+  "homepage": "https://evgenyborisenko.github.io/goit-react-hw-02-banking-components"
 }
