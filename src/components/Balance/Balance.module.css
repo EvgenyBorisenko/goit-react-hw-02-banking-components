@@ -1,0 +1,25 @@
+.balance {
+  width: 400px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(92, 105, 117, 255);
+}
+
+.arrowUp {
+  color: #99c766;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.arrowDown {
+  color: #e83a3e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
